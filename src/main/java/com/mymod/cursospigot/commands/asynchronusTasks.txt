@@ -1,0 +1,18 @@
+Tipos de acciones asincronas
+
+Bukkit.getScheduler().runTaskAsynchronously(CursoSpigot.getInstance(),() -> {
+            //Dentro de esta funcion lambda, escribir la logica de la tarea paralela
+            System.out.println("Haciendo una tarea paralelamente");
+        });
+        Bukkit.getScheduler().runTaskLaterAsynchronously(CursoSpigot.getInstance(),() -> {
+            //Dentro de esta funcion lambda, escribir la logica de la tarea paralela
+            System.out.println("Haciendo una tarea paralelamente");
+        }, 200000); //Pasarle como segundo parametro, el tiempo que tardara en ejecutar esta tarea (en ticks)
+
+        /*1. Parametro la funcion o logica
+        * 2. Parametro: El tiempo de delay que tomara al finalzar la tarea
+        * 3. Parametro: Cada cierto tiempo que ejecutara la tarea*/
+        Bukkit.getScheduler().runTaskTimerAsynchronously(CursoSpigot.getInstance(),() -> {
+            //Dentro de esta funcion lambda, escribir la logica de la tarea paralela
+            System.out.println("Haciendo una tarea paralelamente");
+        },20L,5L);

@@ -1,0 +1,49 @@
+name: CursoSpigot
+version: '${version}'
+main: com.mymod.cursospigot.CursoSpigot
+api-version: '1.20'
+
+depend:
+  - ProtocolLib
+  #Apartado donde declararemos nuestros comandos
+commands:
+  #Nombre del comando
+  ejemplo:
+    description: Comando para saludar
+    #Alias del comando, con el que tambien puede ser intercambiado
+    #Quiere decir que con ambos nombres puede ser ejecutado dentro del juego
+    aliases:
+      - hola
+    #Argumentos opcionales con corchetes '[]', argumentos obligatorios '<>'
+    #Le estamos diciendo que el comando puede tener un argumento llamado "nombre"
+    usage: "Usage: /ejemplo [nombre]"
+  espada:
+    description: Comando para item personalizado de espada
+    usage: "Usage: /espada"
+  head:
+    description: Comando para obtener cabeza custom
+    usage: "Usage: /head [leather]"
+  displayTitles:
+    description: Comando para mostrar diferentes tipos de textos y GUI para el jugador
+    aliases:
+      - display
+
+    usage: "Usage: /display"
+  scores:
+    description: Comando con todo lo relacionado a puntajes y scores
+    usage: "/score"
+
+  projectile:
+    description: Comando para poner aprueba los proyectiles dentro del juego
+    usage: /projectile
+
+  parallel:
+    description: Comando para la ejecucion de tareas paralelas
+  particles:
+    description: Comando para mostrar particulas en el mundo
+  Inventory:
+    description: Comando para modificar y agregar GUI's
+  package:
+    description: Comando para mandar paquetes al cliente
+  SetHologram:
+    description: Simulacion de un holograma flotante

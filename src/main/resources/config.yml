@@ -1,0 +1,3 @@
+#Archivo de configuracion para manipular valores sin necesidad de modificarlos en codigo o compilar cada vez
+lucky_number: 48
+movement: "Moviste la mano derecha!"

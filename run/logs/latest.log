@@ -1,0 +1,40 @@
+[21:50:42] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:50:44] [ServerMain/INFO]: Loaded 1174 recipes
+[21:50:44] [ServerMain/INFO]: Loaded 1271 advancements
+[21:50:44] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[21:50:44] [Server thread/INFO]: Loading properties
+[21:50:44] [Server thread/INFO]: This server is running Paper version git-Paper-496 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 7ac24a1 on ver/1.20.4)
+[21:50:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:50:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:50:45] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[21:50:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[21:50:46] [Server thread/INFO]: Default game type: CREATIVE
+[21:50:46] [Server thread/INFO]: Generating keypair
+[21:50:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:50:46] [Server thread/INFO]: Using default channel type
+[21:50:46] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[21:50:46] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:50:46] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.2.0-SNAPSHOT-679
+[21:50:47] [Server thread/INFO]: [CursoSpigot] Loading server plugin CursoSpigot v1.0-SNAPSHOT
+[21:50:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:50:47] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[21:50:47] [Server thread/INFO]: Preparing level "world"
+[21:50:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:50:47] [Server thread/INFO]: Time elapsed: 160 ms
+[21:50:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:50:47] [Server thread/INFO]: Time elapsed: 74 ms
+[21:50:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:50:48] [Server thread/INFO]: Time elapsed: 843 ms
+[21:50:48] [Server thread/INFO]: [CursoSpigot] Enabling CursoSpigot v1.0-SNAPSHOT
+[21:50:48] [Server thread/INFO]: Preparing start region for dimension minecraft:curso
+[21:50:48] [Server thread/INFO]: Time elapsed: 30 ms
+[21:50:49] [Server thread/INFO]: TextComponentImpl{content="Hola a todos!", style=StyleImpl{obfuscated=not_set, bold=true, strikethrough=not_set, underlined=not_set, italic=not_set, color=NamedTextColor{name="red", value="#ff5555"}, clickEvent=ClickEvent{action=open_url, value="https://ed.team"}, hoverEvent=null, insertion=null, font=null}, children=[TextComponentImpl{content="Texto agregado", style=StyleImpl{obfuscated=not_set, bold=not_set, strikethrough=not_set, underlined=not_set, italic=not_set, color=null, clickEvent=null, hoverEvent=null, insertion=null, font=null}, children=[]}]}
+[21:50:49] [Server thread/INFO]: Running delayed init tasks
+[21:50:49] [Server thread/INFO]: Done (4.307s)! For help, type "help"
+[21:50:49] [Server thread/INFO]: Timings Reset
+[21:50:51] [User Authenticator #0/INFO]: UUID of player ImpGamer_03 is 5c3f2983-045d-4750-83c7-b27f2509a900
+[21:50:51] [Server thread/INFO]: ImpGamer_03 joined the game
+[21:50:51] [Server thread/INFO]: ImpGamer_03[/127.0.0.1:61893] logged in with entity id 366 at ([curso]56.16941174194417, 105.0, -38.68175774730955)
+[21:50:54] [Server thread/INFO]: ImpGamer_03 issued server command: /sethologram
